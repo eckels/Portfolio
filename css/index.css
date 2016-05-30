@@ -10,6 +10,10 @@
   background-size: 590px;
 }
 
+.wrapper {
+  overflow-x: hidden;
+}
+
 .balloon {
   position: absolute;
   height: 150px;
