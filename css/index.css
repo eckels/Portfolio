@@ -13,7 +13,6 @@
 .wrapper {
   overflow-x: hidden;
   position: fixed;
-  overflow-y: scroll;
 }
 
 .balloon {
