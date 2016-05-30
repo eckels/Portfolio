@@ -11,17 +11,17 @@ body {
 }
 
 @font-face {
-  src: url('file:///C:/Coding/Portfolio/fonts/myra_bold.ttf');
+  src: url('http://evaneckels.me/fonts/myra_bold.ttf');
   font-family: Myra;
 }
 
 @font-face {
-  src: url('file:///C:/Coding/Portfolio/fonts/myra_regular.ttf');
+  src: url('http://evaneckels.me/fonts/myra_regular.ttf');
   font-family: Myra Regular;
 }
 
 @font-face {
-  src: url('file:///C:/Coding/Portfolio/fonts/myra_light.ttf');
+  src: url('http://evaneckels.me/fonts/myra_light.ttf');
   font-family: Myra Light;
 }
 
