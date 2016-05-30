@@ -1,0 +1,513 @@
+/*Header Styling*/
+
+.header {
+  margin: 0;
+  width: 100%;
+  height: 600px;
+  background-image: url('file:///C:/Coding/Portfolio/img/header3.jpg');
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: 590px;
+}
+
+.balloon {
+  position: absolute;
+  height: 150px;
+  width: auto;
+  margin-left: 120px;
+  margin-top: 60px;
+  animation-name: float;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-timing-function: ease-in;
+  -webkit-animation-name: float;
+  -webkit-animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-timing-function: ease-in;
+}
+
+@keyframes float {
+  0% {margin-top: 60px;}
+  25% {margin-top: 25px;}
+  50% {margin-top: 10px;}
+  75% {margin-top: 50px;}
+  100% {margin-top: 60px;}
+}
+
+@-webkit-keyframes float {
+  0% {margin-top: 60px;}
+  25% {margin-top: 25px;}
+  50% {margin-top: 10px;}
+  75% {margin-top: 50px;}
+  100% {margin-top: 60px;}
+}
+
+.cars {
+  overflow: hidden;
+}
+
+
+.car1, .car2, .car3, .car4, .car5, .car6 {
+  position: absolute;
+  height: 45px;
+  width: auto;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+.car1 {
+  margin-top: 500px;
+  margin-left: -90px;
+  animation-name: toright;
+  animation-duration: 8s;
+  -webkit-animation-name: toright;
+  -webkit-animation-duration: 8s;
+  z-index: 13;
+}
+
+.car2 {
+  margin-top: 500px;
+  margin-left: -90px;
+  animation-name: toright;
+  animation-duration: 6s;
+  animation-delay: 1.5s;
+  -webkit-animation-name: toright;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-delay: 1.5s;
+  z-index: 12;
+}
+
+.car6 {
+  margin-top: 500px;
+  margin-left: -90px;
+  animation-name: toright;
+  animation-duration: 3.5s;
+  animation-delay: 2.5s;
+  -webkit-animation-name: toright;
+  -webkit-animation-duration: 3.5s;
+  -webkit-animation-delay: 2.5s;
+  z-index: 11;
+}
+
+.car3 {
+  right: 0;
+  margin-top: 466px;
+  margin-right: -115px;
+  animation-name: toleft;
+  animation-duration: 8s;
+  animation-delay: 1s;
+  -webkit-animation-name: toleft;
+  -webkit-animation-duration: 8s;
+  -webkit-animation-delay: 1s;
+  z-index: 2;
+}
+
+.car4 {
+  right: 0;
+  margin-top: 462px;
+  animation-name: toleft;
+  animation-duration: 7s;
+  -webkit-animation-name: toleft;
+  -webkit-animation-duration: 7s;
+  margin-right: -115px;
+  z-index: 1;
+}
+
+.car5 {
+  right: 0;
+  margin-top: 470px;
+  margin-right: -115px;
+  animation-name: toleft;
+  animation-duration: 6.5s;
+  animation-delay: 2s;
+  -webkit-animation-name: toleft;
+  -webkit-animation-duration: 6.5s;
+  -webkit-animation-delay: 2s;
+  z-index: 3;
+}
+
+@keyframes toright {
+  0% {left: -90px; right: 100%;}
+  100% {left: 110%; right: 0;}
+}
+
+@-webkit-keyframes toright {
+  0% {left: -90px; right: 100%;}
+  100% {left: 110%; right: 0;}
+}
+
+@keyframes toleft {
+  0% {left: 100%; right: -115px;}
+  100% {left: -115px; right: 100%;}
+}
+
+@-webkit-keyframes toleft {
+  0% {left: 100%; right: -115px;}
+  100% {left: -115px; right: 100%;}
+}
+
+
+/*Navigation Styling*/
+
+nav {
+  height: 70px;
+  margin: 0;
+}
+
+nav ul {
+  float: right;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav li {
+  display: inline;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 8px;
+  letter-spacing: 2px;
+  font-size: 90%;
+  padding: 7px;
+  border-radius: 3px;
+  transition: background-color .3s;
+}
+
+nav li:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav .active {
+  color: #28b6f6;
+  background-color: white;
+}
+
+nav .active:hover {
+  background-color: white;
+}
+
+.smoothScroll {
+
+}
+
+
+/*Header Text Styling*/
+
+.intro {
+  text-align: center;
+  padding: 3%;
+  width: 58%;
+  margin-left: 18%;
+  margin-right: 18%;
+  border-radius: 8px;
+  margin-top: 5%;
+  margin-bottom: 0;
+  animation-name: headerload;
+  animation-duration: 1s;
+  -webkit-animation-name: headerload;
+  -webkit-animation-duration: 1s;
+}
+
+@keyframes headerload {
+  0% {margin-left: 100%;}
+  75% {margin-left: 5%;}
+  100% {margin-left: 18%;}
+}
+
+@-webkit-keyframes headerload {
+  0% {margin-left: 100%;}
+  75% {margin-left: 5%;}
+  100% {margin-left: 18%;}
+}
+
+.intro h1 {
+  color: white;
+  font-family: Myra Light;
+  font-size: 600%;
+  letter-spacing: 5px;
+  margin: 0;
+  text-shadow: 5px 0px black;
+}
+
+h1 span {
+  font-family: Myra;
+  text-shadow: 7px 0px black;
+}
+
+.intro hr {
+  border: solid white 2px;
+  width: 80%;
+}
+
+.intro ul {
+  margin-right: 20px;
+  margin-left: 0;
+}
+
+.intro li {
+  color: white;
+  display: inline;
+  font-size: 120%;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.bottom {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.bottom button {
+  color: white;
+  background-color: #ffa500;
+  margin-left: -83px;
+  border: none;
+  border-bottom: solid #ff7b00 5px;
+  text-align: center;
+  padding: 15px 30px 15px 30px;
+  outline: none;
+  border-radius: 4px;
+  font-size: 120%;
+  box-shadow: 0 0 10px black;
+  cursor: pointer;
+  transition: background-color .2s;
+  animation-name: buttonload;
+  animation-duration: 1s;
+  -webkit-animation-name: buttonload;
+  -webkit-animation-duration: 1s;
+  position: absolute;
+  z-index: 22;
+}
+
+.bottom button:hover {
+  background-color: #ffd000;
+}
+
+@keyframes buttonload {
+  0% {margin-left: 60%}
+  70% {margin-left: -25%;}
+  100% {margin-left: -83px;}
+}
+
+.bottom button:active {
+  border-bottom-width: 3px;
+  margin-top: 2px;
+}
+
+
+/*About Section Styling*/
+
+#about {
+  background-color: #5bb35f;
+  margin: 0;
+  height: 560px;
+  text-align: center;
+  padding: 30px;
+  background-image: url('file:///C:/Coding/Portfolio/img/clouds.png');
+  background-repeat: no-repeat;
+  background-position: 100% 60%;
+  background-size: 1300px;
+  display: block;
+}
+
+#about .about_div {
+
+}
+
+#about h3 {
+  margin: 0;
+  color: white;
+  font-size: 400%;
+  font-family: Myra Regular;
+  margin-bottom: 30px;
+  letter-spacing: 4px;
+  padding: 15px;
+}
+
+#about img {
+  margin: 0;
+  border-radius: 50%;
+  height: 225px;
+  width: auto;
+  border: solid #3d8441 10px;
+}
+
+#about p {
+  margin: 0;
+  color: white;
+  padding: 3%;
+  background-color: rgba(69,150,73, .9);
+  width: 88%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 20px 5px 20px 5px;
+  line-height: 200%;
+  font-size: 120%;
+}
+
+#about .left {
+  float: left;
+  width: 50%;
+}
+
+#about .right {
+  float: left;
+  width: 50%;
+}
+
+#about .social {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#about .twitter {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  border: solid #3d8441 3px;
+  padding: 12px;
+  transition: background-color .3s;
+}
+
+#about .twitter:hover {
+  background-color: #459649;
+}
+
+#about .github {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  border: solid #3d8441 3px;
+  padding: 12px;
+  transition: background-color .3s;
+}
+
+#about .github:hover {
+  background-color: #459649;
+}
+
+
+/*Contact Styling*/
+
+#contact {
+  background-color: #459649;
+  margin: 0;
+  padding: 30px 60px 30px 60px;
+  background-image: url('file:///C:/Coding/Portfolio/img/letter.png');
+  background-size: 40%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+#contact h3 {
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-size: 400%;
+  font-family: Myra Regular;
+  margin-bottom: 30px;
+  letter-spacing: 4px;
+  padding: 15px 15px 0px 15px;
+}
+
+#contact form {
+  margin-left: 6%;
+}
+
+#contact .left, .right {
+  float: left;
+  width: 50%;
+}
+
+#contact .full {
+  width: 100%;
+}
+
+#contact p {
+  color: white;
+  font-size: 120%;
+  margin-bottom: 5px;
+}
+
+#contact input, textarea {
+  width: 80%;
+  margin-bottom: 15px;
+  padding: 5px;
+  font-size: 110%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  border: solid gray 2px;
+  transition: border .3s;
+}
+
+#contact input:focus {
+  border: solid #2a2a2a 2px;
+}
+
+#contact textarea:focus {
+  border: solid #2a2a2a 2px;
+}
+
+#contact textarea {
+  width: 90%;
+  height: 200px;
+  resize: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#contact .submit {
+  outline: none;
+  width: auto;
+  background-color: #ffa500;
+  border: none;
+  border-bottom: solid #ff7b00 5px;
+  color: white;
+  font-size: 150%;
+  padding: 10px 16px 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color, color .3s;
+}
+
+#contact .submit:hover {
+  background-color: #ffd000;
+}
+
+#contact .submit:active {
+  border-bottom: solid #ff7b00 3px;
+  margin-top: 2px;
+}
+
+#contact .submit:focus {
+  border: none;
+  border-bottom: solid #ff7b00 5px;
+}
+
+#contact a {
+  color: #ffd000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  border-bottom: solid #ffd000 2px;
+}
+
+#contact .desc {
+  width: 70%;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 0;
+  margin-bottom: 5px;
+}

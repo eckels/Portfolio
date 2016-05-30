@@ -1,0 +1,24 @@
+light #71cff9
+blueCORE #28b6f6
+dark #099ee2
+really dark #088dc9
+
+light #7ec381
+greenCORE #5bb35f
+dark #459649
+really dark #3d8441
+
+
+
+OTHER SCHEME
+
+lightest #5d9cec
+medium blue #4a89dc
+dark blue #2363b6
+
+light #ffd000
+orange #ffa500
+dark orange #ff7b00
+
+leather #50432d
+dark #403624
