@@ -325,6 +325,10 @@
     height: 120px;
   }
 
+  .cars {
+    display: none;
+  }
+
   #about {
     height: 875px;
   }
