@@ -255,6 +255,7 @@
 
   .balloon {
     margin-left: 5px;
+    height: 140px;
   }
 
   .bottom button {
@@ -288,6 +289,7 @@
 
   .balloon {
     margin-left: 0;
+    height: 130px;
   }
 
   #about {
@@ -320,7 +322,7 @@
 @media (max-width: 540px) {
 
   .balloon {
-    visibility: hidden;
+    height: 120px;
   }
 
   #about {
@@ -461,6 +463,10 @@
 /* 400px Screen Size */
 
 @media (max-width: 400px) {
+
+  .balloon {
+    height: 100px;
+  }
 
   .intro h1 {
     font-size: 420%;
