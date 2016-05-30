@@ -61,6 +61,26 @@
     margin-right: 8%;
   }
 
+  @keyframes toleft {
+    0% {left: 90%; right: 0;}
+    100% {left: -115px; right: 100%;}
+  }
+
+  @-webkit-keyframes toleft {
+    0% {left: 90%; right: 0;}
+    100% {left: -115px; right: 100%;}
+  }
+
+  @keyframes toright {
+    0% {left: 0; right: 100%;}
+    100% {left: 100%; right: 0;}
+  }
+
+  @-webkit-keyframes toright {
+    0% {left: 0; right: 100%;}
+    100% {left: 100%; right: 0;}
+  }
+
 }
 
 
@@ -90,6 +110,16 @@
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+  }
+
+  @keyframes toleft {
+    0% {left: 86%; right: 0;}
+    100% {left: -115px; right: 100%;}
+  }
+
+  @-webkit-keyframes toleft {
+    0% {left: 86%; right: 0;}
+    100% {left: -115px; right: 100%;}
   }
 
 }
@@ -206,6 +236,16 @@
     margin-bottom: 60px;
   }
 
+  @keyframes toleft {
+    0% {left: 84%; right: 0;}
+    100% {left: -115px; right: 100%;}
+  }
+
+  @-webkit-keyframes toleft {
+    0% {left: 84%; right: 0;}
+    100% {left: -115px; right: 100%;}
+  }
+
 }
 
 
@@ -229,6 +269,16 @@
     margin-bottom: 50px;
   }
 
+  @keyframes toleft {
+    0% {left: 80%; right: 0;}
+    100% {left: -115px; right: 100%;}
+  }
+
+  @-webkit-keyframes toleft {
+    0% {left: 80%; right: 0;}
+    100% {left: -115px; right: 100%;}
+  }
+
 }
 
 
@@ -250,6 +300,16 @@
 
   .secondary_nav p {
     margin-top: -2px;
+  }
+
+  @keyframes toleft {
+    0% {left: 78%; right: 0;}
+    100% {left: -115px; right: 100%;}
+  }
+
+  @-webkit-keyframes toleft {
+    0% {left: 78%; right: 0;}
+    100% {left: -115px; right: 100%;}
   }
 
 }
@@ -364,6 +424,16 @@
     animation-duration: 2.5s;
   }
 
+  @keyframes toleft {
+    0% {left: 75%; right: 0;}
+    100% {left: -115px; right: 100%;}
+  }
+
+  @-webkit-keyframes toleft {
+    0% {left: 75%; right: 0;}
+    100% {left: -115px; right: 100%;}
+  }
+
 }
 
 
@@ -373,6 +443,16 @@
 
   #about {
     height: 1050px;
+  }
+
+  @keyframes toleft {
+    0% {left: 72%; right: 0;}
+    100% {left: -115px; right: 100%;}
+  }
+
+  @-webkit-keyframes toleft {
+    0% {left: 72%; right: 0;}
+    100% {left: -115px; right: 100%;}
   }
 
 }
@@ -390,6 +470,16 @@
     height: 1080px;
   }
 
+  @keyframes toleft {
+    0% {left: 67%; right: 0;}
+    100% {left: -115px; right: 100%;}
+  }
+
+  @-webkit-keyframes toleft {
+    0% {left: 67%; right: 0;}
+    100% {left: -115px; right: 100%;}
+  }
+
 }
 
 
@@ -403,6 +493,16 @@
 
   #about {
     height: 1140px;
+  }
+
+  @keyframes toleft {
+    0% {left: 61%; right: 0;}
+    100% {left: -115px; right: 100%;}
+  }
+
+  @-webkit-keyframes toleft {
+    0% {left: 61%; right: 0;}
+    100% {left: -115px; right: 100%;}
   }
 
 }
