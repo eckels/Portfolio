@@ -10,11 +10,6 @@
   background-size: 590px;
 }
 
-.wrapper {
-  overflow-x: hidden;
-  position: fixed;
-}
-
 .balloon {
   position: absolute;
   height: 150px;
@@ -50,12 +45,12 @@
 }
 
 .cars {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 
 .car1, .car2, .car3, .car4, .car5, .car6 {
-  position: absolute;
+  position: fixed;
   height: 45px;
   width: auto;
   animation-iteration-count: infinite;
