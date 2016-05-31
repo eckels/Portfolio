@@ -1,0 +1,33 @@
+h6 {
+  color: white;
+  font-size: 400%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+body {
+  background-color: #099ee2;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  text-align: center;
+  outline: none;
+  background-color: #ffa500;
+  border: none;
+  border-bottom: solid #ff7b00 5px;
+  color: white;
+  font-size: 140%;
+  padding: 8px 14px 8px 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color, color .3s;
+}
+
+button:hover {
+  background-color: #ffd000;
+}
