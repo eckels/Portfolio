@@ -14,7 +14,11 @@ h1 {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 30px;
+<<<<<<< HEAD
   border-radius: 10px;
+=======
+  border-radius: 2px;
+>>>>>>> refs/remotes/origin/master
   box-shadow: 0 0 8px black;
 }
 
