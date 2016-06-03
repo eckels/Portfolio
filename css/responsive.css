@@ -20,10 +20,6 @@
     100% {margin-left: 7%;}
   }
 
-  #about {
-    height: 600px;
-  }
-
   #portfolio .portfolio_div {
     padding-left: 5%;
     padding-right: 5%;
@@ -44,10 +40,6 @@
 
   .balloon {
     margin-left: 70px;
-  }
-
-  #about {
-    height: 660px;
   }
 
   #portfolio .portfolio_div {
@@ -92,10 +84,6 @@
     margin-left: 25px;
   }
 
-  #about {
-    height: 700px;
-  }
-
   #portfolio .portfolio_div {
     padding-left: 2%;
     padding-right: 2%;
@@ -129,10 +117,6 @@
 
 @media (max-width: 900px) {
 
-  #about {
-    height: 650px;
-  }
-
   #about p {
     font-size: 110%;
   }
@@ -150,34 +134,12 @@
 }
 
 
-/* 850px Screen Size */
-
-@media (max-width: 850px) {
-
-  #about {
-    height: 670px;
-  }
-
-}
-
-
-/* 800px Screen Size */
-
-@media (max-width: 800px) {
-
-  #about {
-    height: 720px;
-  }
-
-}
-
-
 /* 740px Screen Size */
 
 @media (max-width: 740px) {
 
-  #about {
-    height: 700px;
+  .intro li {
+    letter-spacing: 1px;
   }
 
   #about p {
@@ -195,8 +157,9 @@
 
 @media (max-width: 670px) {
 
-  #about {
-    height: 800px;
+  .intro li {
+    letter-spacing: 0;
+    font-size: 110%;
   }
 
   #about .left, .right{
@@ -262,10 +225,6 @@
     animation-name: none;
   }
 
-  #about {
-    height: 825px;
-  }
-
   #contact .desc {
     margin-bottom: 50px;
   }
@@ -292,8 +251,10 @@
     height: 130px;
   }
 
-  #about {
-    height: 850px;
+  .intro li {
+    display: block;
+    letter-spacing: 3px;
+    font-size: 120%;
   }
 
   .secondary_nav img {
@@ -327,10 +288,6 @@
 
   .cars {
     display: none;
-  }
-
-  #about {
-    height: 875px;
   }
 
   #portfolio {
@@ -390,7 +347,6 @@
   }
 
   #about {
-    height: 920px;
     padding: 15px;
   }
 
@@ -447,10 +403,6 @@
 
 @media (max-width: 450px) {
 
-  #about {
-    height: 1050px;
-  }
-
   @keyframes toleft {
     0% {left: 72%; right: 0;}
     100% {left: -115px; right: 100%;}
@@ -476,10 +428,6 @@
     font-size: 420%;
   }
 
-  #about {
-    height: 1080px;
-  }
-
   @keyframes toleft {
     0% {left: 67%; right: 0;}
     100% {left: -115px; right: 100%;}
@@ -499,10 +447,6 @@
 
   .intro h1 {
     font-size: 370%;
-  }
-
-  #about {
-    height: 1140px;
   }
 
   @keyframes toleft {
