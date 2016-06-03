@@ -259,6 +259,7 @@ h1 span {
   font-size: 120%;
   letter-spacing: 3px;
   text-transform: uppercase;
+  margin-right: 15px;
 }
 
 .bottom {
@@ -309,7 +310,6 @@ h1 span {
 #about {
   background-color: #5bb35f;
   margin: 0;
-  height: 560px;
   text-align: center;
   padding: 30px;
   background-image: url('http://evaneckels.me/img/clouds.png');
@@ -319,8 +319,11 @@ h1 span {
   display: block;
 }
 
-#about .about_div {
-
+#about .about_div:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
 }
 
 #about h3 {
