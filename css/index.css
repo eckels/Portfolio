@@ -400,6 +400,94 @@ h1 span {
 }
 
 
+/*Skills Styling*/
+
+#skills {
+  background-color: #28B6F6;
+  margin: 0;
+  padding: 50px 60px 30px 60px;
+}
+
+#skills h3 {
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-size: 400%;
+  font-family: Myra Regular;
+  margin-bottom: 30px;
+  letter-spacing: 4px;
+}
+
+#skills .skills_div:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+#skills .left {
+  width: 44%;
+  margin: 0;
+  margin-right: 3%;
+  margin-left: 3%;
+  float: left;
+}
+
+#skills .right {
+  width: 44%;
+  margin: 3%;
+  float: left;
+}
+
+#skills .left p {
+  margin: 0;
+  margin-top: 32px;
+  color: white;
+  font-size: 130%;
+  line-height: 180%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#skills .left img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#skills .right .skill {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #099ee2;
+  border-radius: 10px;
+}
+
+#skills .right .skill p {
+  margin: 0;
+  color: white;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+#skills .right .skill .bar {
+  margin: 0;
+  height: 70px;
+}
+
+#skills .cloud {
+  margin: 0;
+  float: left;
+  height: 60%;
+  margin-top: 10px;
+}
+
+#skills .plane {
+  margin: 0;
+  float: left;
+  height: 100%;
+}
+
+
 /*Contact Styling*/
 
 #contact {
