@@ -1,3 +1,18 @@
+/* 1280px Screen Size */
+
+@media (max-width: 1280px) {
+
+  #skills .plane {
+    height: 90%;
+  }
+
+  #skills .cloud {
+    height: 50%;
+  }
+
+}
+
+
 /* 1215px Screen Size */
 
 @media (max-width: 1215px) {
@@ -29,6 +44,21 @@
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+  }
+
+}
+
+
+/* 1120px Screen Size */
+
+@media (max-width: 1120px) {
+
+  #skills .plane {
+    height: 80%;
+  }
+
+  #skills .cloud {
+    height: 40%;
   }
 
 }
@@ -89,6 +119,36 @@
     padding-right: 2%;
   }
 
+  #skills .plane {
+    height: 90%;
+  }
+
+  #skills .cloud {
+    height: 60%;
+  }
+
+  #skills .left {
+    float: none;
+    width: 92%;
+    margin: 0;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  #skills .right {
+    float: none;
+    width: 92%;
+    margin: 0;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  #skills .left img {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
   #contact {
     padding: 30px 20px 30px 20px;
     background-size: 60%;
@@ -144,6 +204,14 @@
 
   #about p {
     line-height: 170%;
+  }
+
+  #skills .plane {
+    height: 80%;
+  }
+
+  #skills .cloud {
+    height: 50%;
   }
 
   #contact {
@@ -225,6 +293,19 @@
     animation-name: none;
   }
 
+  #skills .plane {
+    height: 70%;
+  }
+
+  #skills .cloud {
+    height: 40%;
+  }
+
+  #skills .right .skill p {
+    font-size: 120%;
+    font-weight: normal;
+  }
+
   #contact .desc {
     margin-bottom: 50px;
   }
@@ -298,6 +379,34 @@
     margin-bottom: 50px;
   }
 
+  #skills {
+    padding: 30px;
+  }
+
+  #skills .left {
+    margin: 0;
+    width: 100%;
+  }
+
+  #skills .right {
+    margin: 0;
+    width: 100%;
+  }
+
+  #skills .left img {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #skills .plane {
+    height: 60%;
+  }
+
+  #skills .cloud {
+    height: 35%;
+  }
+
 }
 
 
@@ -350,7 +459,15 @@
     padding: 15px;
   }
 
+  #about h3 {
+    font-size: 300%;
+  }
+
   #portfolio h3 {
+    font-size: 300%;
+  }
+
+  #skills h3 {
     font-size: 300%;
   }
 
@@ -426,6 +543,26 @@
 
   .intro h1 {
     font-size: 420%;
+  }
+
+  #about h3 {
+    font-size: 250%;
+  }
+
+  #portfolio h3 {
+    font-size: 250%;
+  }
+
+  #skills .plane {
+    height: 50%;
+  }
+
+  #skills .cloud {
+    height: 30%;
+  }
+
+  #contact h3 {
+    font-size: 250%;
   }
 
   @keyframes toleft {
